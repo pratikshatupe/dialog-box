@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Dialog</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./img/main_img.png" class="img-header" alt="Coding" />
+      <div>
+        <h1 class="header-text">LIFE BETTER WITH BURGER</h1>
+        <img src="./img/buger menu.avif" class="img-qr" alt="QR Code" />
+        <p class="qr-description">
+          SEE THIS AMASING BUGER HOUSE MENUS !!!!!!!!<br/>
+          ONLY FOR YOU............
+          SPEICAL OFFER (BY ONE GET ONE FREE)
+        </p>
+      </div>
+    </div>
+
+    <button type="button" class="btn" onclick="openModal()">BUY NOW</button>
+
+    <div class="overlay" id="overlay">
+      <div class="modal">
+        <img
+          src="./img/close (1).png"
+          class="close-icon"
+          alt="Close"
+          onclick="closeModal()" />
+        <form class="form">
+
+          <h1 class="form-header">BUY NOW</h1>
+
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="form-input"
+          />
+
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="form-input"
+          />
+
+          <input
+            type="text"
+            placeholder="Enter your phone number"
+            class="form-input"
+          />
+
+          <input
+            type="text"
+            placeholder="burger catageory"
+            class="form-input"
+          />
+          <input
+          type="number"
+          placeholder="contity"
+          class="form-input"/>
+        </form>
+
+        <button type="button" class="btn">
+          Proced to Payment
+        </button>
+      </div>
+    </div>
+
+
+    <script src="./box.js"></script>
+  </body>
+</html>
