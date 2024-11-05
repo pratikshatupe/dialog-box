@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle, #050752 1px, transparent 1px);
+    background-image: radial-gradient(circle, #904569 1px, transparent 1px);
     background-size: 30px 30px;
     background-position: 0 0;
   }
@@ -32,7 +32,7 @@ body {
   }
   
   .btn {
-    background-color: #000;
+    background-color:teal;
     color: #fff;
     font-size: 24px;
     padding: 10px 30px;
